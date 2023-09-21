@@ -11,7 +11,7 @@ export default function Header() {
             </li>
             
             <li>
-              <a href="#about-me">ABOUT ME</a>
+              <a href="#resume">RESUME</a>
             </li>
 
             <li>

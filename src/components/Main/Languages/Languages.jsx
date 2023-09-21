@@ -7,15 +7,15 @@ export default function Languages() {
     <div className='languages'>
         <h2 className='languages-title'>LANGUAGES</h2>
         <div className='languages-container'>
-            <p className='languages-container-title'>Spanish</p>
+            <p className='languages-container-title'>Spanish <small>(Native)</small></p>
             <ProgressBar percentage='100' />
         </div>
         <div className='languages-container'>
-            <p className='languages-container-title'>English</p>
+            <p className='languages-container-title'>English <small>(C1)</small></p>
             <ProgressBar percentage='85' />
         </div>
         <div className='languages-container'>
-            <p className='languages-container-title'>Portuguese</p>
+            <p className='languages-container-title'>Portuguese <small>(B1)</small></p>
             <ProgressBar percentage='70' />
         </div>
     </div>
