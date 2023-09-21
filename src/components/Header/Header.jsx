@@ -7,15 +7,15 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href="#inicio">INICIO</a>
+              <a href="#home">HOME</a>
             </li>
             
             <li>
-              <a href="#inicio">SOBRE MÍ</a>
+              <a href="#skills">SKILLS</a>
             </li>
 
             <li>
-              <a href="#inicio">PROYECTOS</a>
+              <a href="#experience">EXPERIENCE</a>
             </li>
 
             <li>

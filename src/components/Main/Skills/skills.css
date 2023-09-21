@@ -1,0 +1,34 @@
+.skills-title {
+    color: #fff;
+    padding-bottom: 4px;
+    text-underline-offset: 8px;
+    text-decoration: underline #B100E8;
+    margin-left: 8px;
+    font-size: 32px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.skills-container-icon {
+    font-size: 55px;
+    color: #fff;
+    width: 50px;
+}
+
+.skills-container-language {
+    margin: 0px 20px;
+    width: 100px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.progress-bar {
+    width: 200px;
+}

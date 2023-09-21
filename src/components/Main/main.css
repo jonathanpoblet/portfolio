@@ -4,9 +4,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: radial-gradient(#111, #202020, #3b3b3b);
 }
 
 .main-banner {
     width: 100%;
+}
+
+.main-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    padding: 150px;
+    /* background: linear-gradient(#0e0e0e,#000f1d); */
+    background: radial-gradient(#111,#000,#1a1a1a);
 }

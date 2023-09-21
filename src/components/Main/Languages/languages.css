@@ -1,0 +1,25 @@
+.languages-title {
+    color: #fff;
+    padding-bottom: 4px;
+    text-underline-offset: 8px;
+    text-decoration: underline #B100E8;
+    margin-left: 8px;
+    font-size: 32px;
+}
+
+
+.languages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.languages-container-title {
+    margin: 0px;
+    width: 100px;
+    color: #fff;
+    font-weight: 500;
+}

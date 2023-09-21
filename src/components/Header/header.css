@@ -17,6 +17,7 @@ header nav ul {
     width: 100%;
     padding: 30px;
     list-style: none;
+    margin-bottom: 0px;
 }
 
 header nav ul li {
@@ -26,14 +27,14 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
     background: linear-gradient(transparent, #B100E8);
 }
 
 header nav ul li a:hover {
     background: linear-gradient(transparent, #048AFF);
-    animation: backgroundAnimation 0.15s linear; /* Aplicar la animación de fondo durante 5 segundos con un efecto lineal */
+    animation: backgroundAnimation 0.15s linear;
 }
 
 @keyframes backgroundAnimation {
