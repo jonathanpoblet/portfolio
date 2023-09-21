@@ -11,15 +11,15 @@ export default function Header() {
             </li>
             
             <li>
-              <a href="#skills">SKILLS</a>
+              <a href="#about-me">ABOUT ME</a>
             </li>
 
             <li>
-              <a href="#experience">EXPERIENCE</a>
+              <a href="#proyects">PROYECTS</a>
             </li>
 
             <li>
-              <a href="#inicio">CONTACTO</a>
+              <a href="#contact">CONTACTO</a>
             </li>
           </ul>
         </nav>

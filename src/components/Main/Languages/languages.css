@@ -3,8 +3,10 @@
     padding-bottom: 4px;
     text-underline-offset: 8px;
     text-decoration: underline #B100E8;
-    margin-left: 8px;
+    margin-left: 0px;
     font-size: 32px;
+    margin-top: 50px;
+    width: 390px;
 }
 
 
@@ -19,7 +21,7 @@
 
 .languages-container-title {
     margin: 0px;
-    width: 100px;
+    width: 150px;
     color: #fff;
     font-weight: 500;
 }
