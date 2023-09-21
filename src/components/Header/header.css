@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    background: linear-gradient(#000, #111, #222) ;
+    position: fixed;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    background: linear-gradient(transparent, #B100E8);
+}
+
+header nav ul li a:hover {
+    background: linear-gradient(transparent, #048AFF);
+    animation: backgroundAnimation 0.15s linear; /* Aplicar la animación de fondo durante 5 segundos con un efecto lineal */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(transparent, #B100E8);
+    }
+    100% {
+        background: linear-gradient(transparent, #048AFF);
+    }
+}
