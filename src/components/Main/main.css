@@ -27,6 +27,20 @@
     justify-content: center;
 }
 
+.main-projects {
+    padding: 150px 30px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+}
+
+.main-projects-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 @media screen and (max-width: 1300px) {
     .main-resume {
         flex-wrap: wrap;

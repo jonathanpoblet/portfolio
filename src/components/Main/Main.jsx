@@ -5,6 +5,7 @@ import Education from './Education/Education';
 import AboutMe from './AboutMe/AboutMe';
 
 import './main.css';
+import Projects from './Projects/Projects';
 
 export default function Main() {
   return (
@@ -25,8 +26,12 @@ export default function Main() {
             <Experience />
             <Education />
           </article>
+        </section>
 
-
+        <section className='main-projects' id='projects'>
+          <article className='main-projects-article'>
+            <Projects />
+          </article>
         </section>
     </main>
   )

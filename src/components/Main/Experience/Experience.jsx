@@ -14,7 +14,7 @@ export default function Experience() {
           <div>
             <h2>No Country</h2>
             <p>Frontend Developer</p>
-            <p>September 2022 - April</p>
+            <p>September 2022 - April 2023</p>
           </div>
         </div>
     </div>

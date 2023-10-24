@@ -14,11 +14,11 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="#proyects">PROYECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
 
             <li>
-              <a href="#contact">CONTACTO</a>
+              <a href="#contact">CONTACT</a>
             </li>
           </ul>
         </nav>
