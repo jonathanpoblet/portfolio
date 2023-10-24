@@ -63,3 +63,9 @@
     font-size: 14px;
     color: #000;
 }
+
+@media screen and (max-width: 800px) {
+    .education {
+        width: 340px;
+    }
+}

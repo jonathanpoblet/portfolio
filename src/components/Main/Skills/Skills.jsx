@@ -37,7 +37,7 @@ export default function Skills() {
 
       <div className='skills-container'>
         <TypeScriptIcon className='skills-container-icon'/>
-        <p className='skills-container-language'>TypeScript js</p>
+        <p className='skills-container-language'>TypeScript</p>
         <ProgressBar percentage='50' />
       </div>
 

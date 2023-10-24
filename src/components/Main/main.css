@@ -24,4 +24,42 @@
 .main-resume-articles {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-resume {
+        flex-wrap: wrap;
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    .main-resume-articles {
+        margin-top: 100px;
+        align-items: center;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-resume-articles {
+        width: 100%;
+    }
+
+    .main-banner {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main-banner {
+        min-height: 270px;
+    }
+    
+    .main-resume {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }

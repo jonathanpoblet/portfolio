@@ -1,8 +1,9 @@
 header {
     width: 100%;
     background: linear-gradient(#000, #111, #222);
-    box-shadow: 2px 2px 10px 2px #353535;
+    box-shadow: 1px 1px 10px 1px #1b1b1b;
     position: fixed;
+    z-index: 1000;
 }
 
 header nav {
@@ -29,19 +30,36 @@ header nav ul li a {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    background: linear-gradient(transparent, #B100E8);
+    background-color: #B100E8;
+    transition: 0.5s;
 }
 
 header nav ul li a:hover {
-    background: linear-gradient(transparent, #048AFF);
-    animation: backgroundAnimation 0.15s linear;
+    background-color: #048AFF;
 }
 
-@keyframes backgroundAnimation {
-    0% {
-        background: linear-gradient(transparent, #B100E8);
+@media screen and (max-width: 800px) {
+    header nav ul {
+        justify-content: center;
     }
-    100% {
-        background: linear-gradient(transparent, #048AFF);
+
+    header nav ul li {
+        margin-right: 15px;
+        margin-left: 15px;
     }
+}
+
+
+@media screen and (max-width: 550px) {
+    header nav ul li a {
+        padding: 7px;
+        font-size: 14px;
+    }  
+}
+
+@media screen and (max-width: 450px) {
+    header nav ul li a {
+        padding: 7px;
+        font-size: 12px;
+    }  
 }

@@ -25,3 +25,13 @@
     color: #fff;
     font-weight: 500;
 }
+
+@media screen and (max-width: 800px) {
+    .languages {
+        width: 340px;
+    }
+
+    .languages-title {
+        width: 100%;
+    }
+}

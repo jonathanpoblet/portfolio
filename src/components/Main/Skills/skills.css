@@ -38,3 +38,10 @@
 .progress-bar {
     width: 200px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .skills {
+        width: 340px;
+    }
+}

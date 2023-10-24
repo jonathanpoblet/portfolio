@@ -1,4 +1,3 @@
-import React from 'react';
 import Skills from './Skills/Skills';
 import Languages from './Languages/Languages';
 import Experience from './Experience/Experience';
@@ -19,13 +18,14 @@ export default function Main() {
           </article>
 
           <article className='main-resume-articles'>
+            <Skills />
+          </article>
+          
+          <article className='main-resume-articles'>
             <Experience />
             <Education />
           </article>
 
-          <article className='main-resume-articles'>
-            <Skills />
-          </article>
 
         </section>
     </main>

@@ -63,3 +63,17 @@
     font-size: 14px;
     color: #000;
 }
+
+@media screen and (max-width: 800px) {
+    .experience {
+        width: 340px;
+    }
+
+    .timeline-area {
+        width: 270px !important;
+    }
+
+    .timeline-area div {
+        width: 270px;
+    }
+}

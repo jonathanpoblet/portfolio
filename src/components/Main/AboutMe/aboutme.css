@@ -1,5 +1,5 @@
 .aboutme {
-    width: 300px;
+    width: 400px;
 }
 
 .aboutme-title {
@@ -15,4 +15,12 @@
     font-size: 16px;
     color: #fff;
     line-height: 25px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .aboutme {
+        width: 340px;
+    }
 }
