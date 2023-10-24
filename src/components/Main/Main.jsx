@@ -11,7 +11,7 @@ import Contact from './Contact/Contact';
 export default function Main() {
   return (
     <main className='main'>
-        <img className='main-banner' src="../../../public/assets/banner.png" alt="banner" id='home' />
+        <img className='main-banner' src="./assets/banner.png" alt="banner" id='home' />
 
         <section className='main-resume' id='resume'>
           <article className='main-resume-articles'>
