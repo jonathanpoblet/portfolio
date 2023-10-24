@@ -33,7 +33,12 @@
     background-color: rgb(27, 27, 27);
 }
 
-.main-projects-article {
+.main-contact {
+    padding: 150px 30px;
+    width: 100%;
+}
+
+.main-projects-article , .main-contact-article {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -6,6 +6,7 @@ import AboutMe from './AboutMe/AboutMe';
 
 import './main.css';
 import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 export default function Main() {
   return (
@@ -31,6 +32,12 @@ export default function Main() {
         <section className='main-projects' id='projects'>
           <article className='main-projects-article'>
             <Projects />
+          </article>
+        </section>
+
+        <section className='main-contact' id='contact'>
+          <article className='main-contact-article'>
+            <Contact/>
           </article>
         </section>
     </main>
