@@ -6,7 +6,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className='d-flex flex-wrap justify-content-between align-items-center footer flex-row'>
+    <footer className='d-flex flex-wrap justify-content-center align-items-center footer flex-row'>
       <div className='col-md-4 d-flex align-items-center'>
         <span className='mb-md-0 text-white'>©2025 Jonathan Poblet</span>
       </div>

@@ -23,7 +23,7 @@ export default function Header() {
               href='https://api.whatsapp.com/send?phone=541130565913'
               target='_blank'
             >
-              CONTACT ME!
+              CONTACT!
             </a>
           </li>
         </ul>
