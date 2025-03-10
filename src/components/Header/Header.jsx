@@ -18,7 +18,13 @@ export default function Header() {
           </li>
 
           <li>
-            <a href='#contact'>CONTACT</a>
+            <a
+              style={{ backgroundColor: '#000', color: '#fff' }}
+              href='https://api.whatsapp.com/send?phone=541130565913'
+              target='_blank'
+            >
+              CONTACT ME!
+            </a>
           </li>
         </ul>
       </nav>

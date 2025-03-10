@@ -8,9 +8,9 @@ function App() {
     <>
       <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

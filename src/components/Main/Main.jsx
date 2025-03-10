@@ -11,35 +11,35 @@ import Contact from './Contact/Contact';
 export default function Main() {
   return (
     <main className='main'>
-        <img className='main-banner' src="./assets/banner.png" alt="banner" id='home' />
+      <img className='main-banner' src='./assets/banner.png' alt='banner' id='home' />
 
-        <section className='main-resume' id='resume'>
-          <article className='main-resume-articles'>
-            <AboutMe />
-            <Languages />
-          </article>
+      <section className='main-resume' id='resume'>
+        <article className='main-resume-articles'>
+          <AboutMe />
+          <Languages />
+        </article>
 
-          <article className='main-resume-articles'>
-            <Skills />
-          </article>
-          
-          <article className='main-resume-articles'>
-            <Experience />
-            <Education />
-          </article>
-        </section>
+        <article className='main-resume-articles'>
+          <Skills />
+        </article>
 
-        <section className='main-projects' id='projects'>
-          <article className='main-projects-article'>
-            <Projects />
-          </article>
-        </section>
+        <article className='main-resume-articles'>
+          <Experience />
+          <Education />
+        </article>
+      </section>
 
-        <section className='main-contact' id='contact'>
+      <section className='main-projects' id='projects'>
+        <article className='main-projects-article'>
+          <Projects />
+        </article>
+      </section>
+
+      {/* <section className='main-contact' id='contact'>
           <article className='main-contact-article'>
             <Contact/>
           </article>
-        </section>
+        </section> */}
     </main>
-  )
+  );
 }
