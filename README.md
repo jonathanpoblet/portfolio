@@ -1,8 +1,9 @@
 # PORTFOLIO
 
-Deploy: https://jonathanpoblet.github.io/portfolio/
+Deploy: https://jonathanpoblet.virtualdesigns.tech
 
-![Project Image](https://github.com/jonathanpoblet/portfolio/assets/106752020/cc368638-d68d-4d6a-8de2-1f264bcd729f)
+![portfolio](https://github.com/user-attachments/assets/f6450bcf-6e2d-45c5-9f8e-077168d9aa91)
+
 
 ---
 
